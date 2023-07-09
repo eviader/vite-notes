@@ -1,0 +1,34 @@
+
+.container-load{
+    position:fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    width: 10rem;
+    height: 10rem;
+    left: 45%;
+    top: 40%;
+    
+}
+
+.box{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(243, 242, 248);
+    box-shadow: rgb(87, 85, 85) 0px 0px 10px;
+}
+
+@media screen and (max-width: 600px){
+    .container-load{
+        position:fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        width: 10rem;
+        height: 10rem;
+        left: 30%;
+        top: 40%;
+    }
+}

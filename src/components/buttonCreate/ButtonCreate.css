@@ -1,0 +1,12 @@
+.create-button{
+    background-color: transparent;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: 3ms;
+}
+
+.create-button:hover{
+    scale: 120%;
+}

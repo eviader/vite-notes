@@ -1,0 +1,93 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    box-shadow: 1px 1px 15px 1px rgb(156, 150, 150) ;
+    background-color: lightpink;
+    border-radius: 8px;
+}
+
+
+.container-main{
+    display: grid;
+    grid-template-rows: 36% 64%;
+}
+
+.container-nav{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    background-color: #fff;
+}
+
+.input-cards{
+    display: flex;
+    background-color: transparent;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 2px;
+    border: 0;
+    outline: none;
+    width: 99%;
+    resize: none;
+}
+
+.container-tools{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 4px;
+}
+
+.container-m-d{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.save-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 15%;
+    background-color:transparent;
+    cursor: pointer;
+    border: none;
+    transition: 3ms;
+}
+
+.input-color{
+    border: none;
+    width: 10%;
+    height: 80%;
+    cursor: pointer;
+}
+
+.save-button:hover{
+    background-color: rgb(145, 183, 222);
+}
+
+@media screen and (max-width: 600px){
+
+    .container-main{
+        display: grid;
+        grid-template-rows: 25% 75%;
+        position: static;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        box-shadow: 1px 1px 15px 1px rgb(156, 150, 150) ;
+        height: 200px;
+        width: 300px;
+        background-color: lightpink;
+        border-radius: 8px;
+    }
+    .save-button{
+        transition: 3ms;
+        height: 100%;
+        width: 20%;
+
+    }
+}

@@ -1,0 +1,10 @@
+.close-button{
+    border: none;
+    cursor: pointer;
+    transition: 3ms;
+    background-color: transparent;
+}
+
+.close-button:hover {
+    background-color: rgb(238, 202, 202);
+}

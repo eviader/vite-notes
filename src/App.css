@@ -1,0 +1,31 @@
+
+.app-container {
+  display: grid;
+  grid-template-rows: 20% 80%;
+  max-height: 100vh;
+  padding: 2%;
+}
+
+.nav-section{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+
+.main-section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 50px 20px 10px 70px;
+}
+  
+@media screen and (max-width: 600px){
+  .main-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 80px 20px 10px 40px;
+  }
+}

@@ -1,0 +1,50 @@
+.nav-text{
+    display: flex;
+    justify-content: start;
+    align-items: stretch;
+    background-color: white;
+    opacity: 0.8;
+    height: 40px;
+    width: 310px;
+    border-radius: 10px;
+}
+
+.size-font{
+    text-align: end;
+    width: 15%;
+    padding: 0px;
+    margin-left: 8px;
+    font-size: 20px;
+    border: none;
+    transition: 1ms;
+}
+
+.italic, .underline, .bold, .left-text,
+.center-text, .right-text, .color-text{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.color-text{
+    height: 70%;
+    width: 9%;
+    align-self: center;
+}
+
+hr{
+    margin: 1%;
+}
+
+.bold:hover{
+    background-color: lightblue;
+}
+
+.italic:hover{
+    background-color: lightblue;
+}
+
+.underline:hover{
+    background-color: lightblue;
+}
+

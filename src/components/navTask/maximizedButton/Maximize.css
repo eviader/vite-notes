@@ -1,0 +1,11 @@
+.button-maximize{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    
+}
+
+.button-maximize:hover{
+    background-color: rgb(211, 228, 234);
+}
