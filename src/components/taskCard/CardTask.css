@@ -70,7 +70,7 @@
 
     .container-main{
         display: grid;
-        grid-template-rows: 25% 75%;
+        grid-template-rows: 36% 64%;
         position: static;
     }
 

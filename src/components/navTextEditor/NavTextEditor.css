@@ -48,3 +48,19 @@ hr{
     background-color: lightblue;
 }
 
+
+@media screen and (max-width: 600px){
+
+    .nav-text{
+    display: flex;
+    justify-content: start;
+    align-items: stretch;
+    background-color: white;
+    margin-left: 20px;
+    opacity: 0.8;
+    height: 40px;
+    width: 310px;
+    border-radius: 10px;
+    }
+
+}
