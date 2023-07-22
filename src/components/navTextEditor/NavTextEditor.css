@@ -52,13 +52,13 @@ hr{
 @media screen and (max-width: 600px){
 
     .nav-text{
-        justify-content: start;
+        justify-content: center;
         align-items: stretch;
         background-color: #fff;
-        margin-left: 5px;
+        margin-left: 7px;
         opacity: 0.8;
         height: 40px;
-        width: 310px;
+        width: 100%;
         border-radius: 10px;
         overflow-x: scroll;
     }
