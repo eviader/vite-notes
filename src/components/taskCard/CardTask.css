@@ -10,7 +10,6 @@
 
 .container-main{
     display: grid;
-    grid-template-rows: 36% 64%;
 }
 
 .container-nav{
@@ -27,7 +26,10 @@
     border: 0;
     outline: none;
     width: 99%;
+    max-height: 165px;
+    min-height: 165px;
     resize: none;
+    overflow: visible;
 }
 
 .container-tools{
@@ -70,7 +72,6 @@
 
     .container-main{
         display: grid;
-        grid-template-rows: 36% 64%;
         position: static;
     }
 
@@ -91,3 +92,4 @@
 
     }
 }
+

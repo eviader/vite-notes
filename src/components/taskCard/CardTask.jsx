@@ -46,7 +46,6 @@ function CardTask() {
     getId(id)
   }
  
-
   return (
     <>
       {
@@ -67,7 +66,7 @@ function CardTask() {
                 </div>
               </section>
               <section className='container-text'>
-                <textarea className='input-cards' onMouseEnter={()=> handlerId(n.id)}  placeholder='Tu recordatorio aquí' style={n.styleText} onChange={(eText) => setTextValue(eText.target.value)}>{n.note}</textarea>
+                <textarea className='input-cards' onClick={()=> handlerId(n.id)}  placeholder='Tu recordatorio aquí' style={n.styleText} onChange={(eText) => setTextValue(eText.target.value)}>{n.note}</textarea>
               </section>
               
             </main>

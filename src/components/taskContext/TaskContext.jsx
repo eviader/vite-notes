@@ -147,7 +147,7 @@ export function TaskContextProvider(props){
             "style.position": "",
             "style.left": "",
             "style.top": "",
-            "styleText.height":"320%"
+            
             
           })
 

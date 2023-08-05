@@ -29,7 +29,6 @@ function NavTextEditor() {
               <option value="25px">25</option>
               <option value="30px">30</option>
               <option value="35px">35</option>
-              <option value="40px">40</option>
             </select>
             <button className='italic' onClick={italicText}><IconItalic /></button>
             <button className='bold' onClick={boldText}><IconBold /></button>
