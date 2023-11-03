@@ -7,7 +7,6 @@
     border-radius: 8px;
 }
 
-
 .container-main{
     display: grid;
 }
@@ -35,6 +34,7 @@
 .container-tools{
     display: flex;
     align-items: center;
+    position: relative;
     justify-content: start;
     gap: 4px;
 }
@@ -66,6 +66,13 @@
 
 .save-button:hover{
     background-color: rgb(145, 183, 222);
+}
+
+.data-time{
+    margin: 0;
+    font-size: 13px;
+    font: status-bar;
+    color: rgb(156, 148, 148);
 }
 
 @media screen and (max-width: 600px){

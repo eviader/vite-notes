@@ -49,7 +49,6 @@ function CardTask() {
   return (
     <>
       {
-        
         load ? <Loading /> :  notes.map((n) => (
           <div ref={cardRef} className="card" key={n.id} style={n.style} >
             <main className='container-main'>
@@ -58,6 +57,7 @@ function CardTask() {
                   <button className='save-button' onClick={() => {handleEditNotes(n.id), toast.success("Guardado exitoso")}} >{n.upCloud ?  <IconCloudCheck /> : <IconCloudUp /> }</button>
                   <input className='input-color' value={n.style.background} onChange={(e) => {setSelectColorCard(e.target.value), setSaveId(n.id)}} type="color" name="rgb-color" id="card-color" />
                   <Flag id={n.id} flagData={n.flag}/>
+                  <p className='data-time'>{n.dataTime}</p>
                 </div>
                 <div className='container-m-d'>
                   <Maximize id={n.id}/>
@@ -68,12 +68,8 @@ function CardTask() {
               <section className='container-text'>
                 <textarea className='input-cards' onClick={()=> handlerId(n.id)}  placeholder='Tu recordatorio aquí' style={n.styleText} onChange={(eText) => setTextValue(eText.target.value)}>{n.note}</textarea>
               </section>
-              
-            </main>
-            
+            </main> 
           </div>
-          
-          
         ))
         
       }

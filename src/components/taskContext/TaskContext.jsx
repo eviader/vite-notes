@@ -60,12 +60,14 @@ export function TaskContextProvider(props){
       try{
         const newData = await addDoc(collection(db, "notes"),{
           fecha: nowMoment.format('YYYY/MM/DD. H:mm:ss'),
+          dataTime: nowMoment.format('DD/MM/YY. H:mm'),
           title: "",
           note: "",
           flag: false,
           upCloud: false,
           style:{ 
                 background: colorRamdom,
+                "border-top": "",
                 height: "200px",
                 width:"300px",
                 position:"none",
@@ -114,9 +116,17 @@ export function TaskContextProvider(props){
 
     async function stateFlag(id, flag){
       const updateNote = doc(db, "notes", id)
-      await updateDoc(updateNote,{
-        flag: flag
-      })
+      if(flag == true){
+        await updateDoc(updateNote,{
+          flag: true,
+          "style.border-top": "solid yellow 6px"
+        })
+      }else{
+        await updateDoc(updateNote,{
+          flag: false,
+          "style.border-top": ""
+        })
+      }
     }
 
     async function setColorDB(id, color){
