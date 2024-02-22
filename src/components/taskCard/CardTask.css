@@ -100,13 +100,20 @@
 
     .container-nav{
         display: grid;
-        grid-template-columns: 72% 28%;
+        grid-template-columns: 70% 30%;
         background-color: #fff;
+    }
+
+    .data-time{
+        margin: 0;
+        font-size: 9px;
+        font: status-bar;
+        color: rgb(156, 148, 148);
     }
 
     .input-color{
         border: none;
-        height: 30%;
+        height: 40%;
     }
 
     .save-button{
