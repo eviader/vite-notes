@@ -98,6 +98,17 @@
         min-height: 155px;      
     }
 
+    .container-nav{
+        display: grid;
+        grid-template-columns: 72% 28%;
+        background-color: #fff;
+    }
+
+    .input-color{
+        border: none;
+        width: 5%;
+    }
+
     .save-button{
         transition: 3ms;
         height: 100%;
