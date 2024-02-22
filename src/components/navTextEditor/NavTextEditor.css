@@ -52,15 +52,14 @@ hr{
 @media screen and (max-width: 600px){
 
     .nav-text{
-        justify-content: center;
-        align-items: stretch;
+        justify-content: space-around;
+        align-items: center;
         background-color: #fff;
-        margin-left: 7px;
         opacity: 0.8;
         height: 40px;
-        width: 102%;
+        width: 100%;
         border-radius: 10px;
-        overflow-x: scroll;
+        overflow-x: hidden;
     }
 
 }

@@ -10,3 +10,12 @@
 .create-button:hover{
     scale: 120%;
 }
+
+
+@media screen and (max-width: 600px){
+
+.create-button{
+    position: relative;
+    left: 40%;    
+}
+}
