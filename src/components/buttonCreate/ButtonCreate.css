@@ -15,7 +15,8 @@
 @media screen and (max-width: 600px){
 
 .create-button{
-    position: relative;
-    left: 40%;    
+    position: fixed;
+    left: 85%;   
+    bottom: 1%; 
 }
 }

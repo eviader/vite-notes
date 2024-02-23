@@ -57,9 +57,20 @@ hr{
         background-color: #fff;
         opacity: 0.8;
         height: 40px;
-        width: 100%;
+        width: 103%;
         border-radius: 10px;
         overflow-x: hidden;
     }
+    
+    .size-font{
+        text-align: start;
+        width: 18%;
+        padding: 0px;
+        margin-left: 5px;
+        font-size: 15px;
+        border: none;
+        transition: 1ms;
+}
+
 
 }
