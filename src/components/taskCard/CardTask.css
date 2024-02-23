@@ -71,7 +71,7 @@
 .data-time{
     margin: 0;
     font-size: 13px;
-    font: status-bar;
+    font-family: sans-serif;
     color: rgb(156, 148, 148);
 }
 
@@ -107,13 +107,14 @@
     .data-time{
         margin: 0;
         font-size: 9px;
-        font: status-bar;
+        font-family: sans-serif;
         color: rgb(156, 148, 148);
     }
 
     .input-color{
         border: none;
-        height: 40%;
+        width: 10%;
+        height: 50%;
     }
 
     .save-button{
